@@ -25,18 +25,20 @@
         require_once 'menu.php';
         ?>
         
-        <h1>Login</h1>
+        <div id="espacamento">  
+        <h1>    Login</h1>
         
-        <div id="div_login">
+        <div id="log">
             <form method="POST" action="logar.php">
                 <label>Nome do Usuário:</label><br>
-                <input type="text" name="user"><br>
+                <input type="text" name="user"><br><br>
                 <label>Senha:</label><br>
-                <input type="password" name="senha"><br>   
+                <input type="password" name="senha"><br><br>
                 
-                <input type="submit" value="logar">
+                <input type="submit" class="button" value="logar">
             </form>
         </div>
+        </div>>
         
         
     </body>

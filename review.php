@@ -37,7 +37,7 @@
                     <option value="10">10</option>
                 </select><br>
                 <label>Review</label><br>
-                <textarea name="txtReview" rows="10" cols="150"></textarea>
+                <textarea name="txtReview" rows="10" cols="110"></textarea>
                 <br>
                 <input type="submit" value="salvar">
             </form>
